@@ -166,6 +166,60 @@ nav .prime {
 	box-shadow: 0px 3px 5px #888888;
 }
 
+/*********** DEVELOPERS *********/
+
+.developers {
+	background-color: #c6c6c6;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.developers article {
+	background-color: #fff;
+	border: 8px solid #fff;
+	border-bottom-width: 10px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 280px;
+}
+.developers article div {
+	background-image: url('http://41.media.tumblr.com/tumblr_m1pho8mgbq1r11y1eo1_500.jpg');
+	height: 280px;
+	width: 280px;
+}
+.developers article h6 {
+	color: #000;
+	font-family: merriweather;
+	margin: 10px 0 5px;
+}
+.developers article ul li {
+	background-color: #888;
+	border-radius: 10px;
+	color: #fff;
+	display: inline-block;
+	font-family: arial;
+	font-size: .75em;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+.developers article a {
+	background-color: #f9e42e;
+	border-radius: 2px;
+	color: #121212;
+	display: block;
+	font-size: 14px;
+	font-family: Oswald;
+	font-weight: 600;
+	margin: 5px 0 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 5%;
+	width: 90%;
+	margin-top: 10px;
+	box-shadow: 0 3px 5px #aaa;
+}
+
 /*********** FOOTER AREA *********/
 
 footer {
