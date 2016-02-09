@@ -1,0 +1,187 @@
+/*
+Project Name: StartUp Matchmaker
+Author: Esmeralda Hoscoy
+Developer @GA in NYC
+*/
+
+/*********** HEADER AREA *********/
+
+header {
+	background-color: #000;
+	height: 100%;
+	overflow: auto;
+	border-bottom: 5px #fdf731 solid;
+}
+
+h1 {
+	color: #fdf731;
+	font-size: 30px;
+	font-family: merriweather;
+	font-weight: bold;
+	margin-left: 5%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+nav {
+	float: right;
+	margin-top: 2.5%;
+	margin-right: 5%;
+}
+
+nav a {
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Source Sans Pro";
+}
+
+nav a:hover {
+	color: #fdf731;
+}
+
+nav .prime {
+	font-family: Oswald;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*********** TAG LINE AREA *********/
+
+.tagline {
+	background-color: #c6c6c6;
+	padding: 25px;
+	text-align: center;
+	font-family: merriweather;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.tagline .taste {
+	text-decoration: line-through;
+	color: #a0a0a0;
+}
+
+.tagline .are {
+	position: relative;
+}
+
+.tagline .are::after {
+	content: "";
+	background-color: #fdf731;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+/*********** callToAction *********/
+
+.callToAction {
+	background-image: url("../images/coworking.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+}
+
+.callToAction div {
+	position: relative;
+	float: right;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 45px;
+	width: 300px;
+	margin-top: 100px;
+	margin-right: 50px;
+	line-height: 25px;
+	font-family: "Source Sans Pro";
+	border: 2px solid #c6c6c6;
+}
+
+.callToAction h3 {
+	font-style: bold;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.callToAction a {
+	background-color: #f9e42e;
+	border-radius: 5px;
+	color: #121212;
+	display: block;
+	font-size: 14px;
+	font-family: Oswald;
+	font-style: bold;
+	font-weight: 600;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	width: 98%;
+	margin-top: 30px;
+	box-shadow: 5px 5px 5px #888888;
+}
+/*********** NEXT STEPS AREA *********/
+
+.createProfile div {
+	display: inline-block;
+	height: 100%;
+	margin: 20px 0;
+	width: 26%;
+	padding: 20px 3.3%;
+	font-family: "Source Sans Pro";
+	border-right: 1px solid #c6c6c6;
+}
+
+.createProfile div:last-child {
+	border-right: none;
+}
+
+
+.createProfile h4 {
+	font-size: 20px;
+	font-family: oswald;
+	margin-bottom: 15px;
+}
+
+.createProfile a {
+	background-color: #c6c6c6;
+	border-radius: 2px;
+	color: #121212;
+	display: block;
+	font-size: 14px;
+	font-family: Oswald;
+	font-style: bold;
+	font-weight: 600;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	width: 80%;
+	margin-top: 30px;
+	box-shadow: 0px 3px 5px #888888;
+}
+
+/*********** FOOTER AREA *********/
+
+footer {
+	background-color: #000;
+	height: 20px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h6 {
+	color: #fff;
+	font-family: oswald;
+	font-size: 15px;
+	margin-left: 5%;
+}
+
+
+
